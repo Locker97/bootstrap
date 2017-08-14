@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>印度洋海运大数据平台</title>
+<!--加载Bootstrap-->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<style>
+	body{
+		padding-bottom: 40px;
+	}
+	.carousel{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	 #summary-container .col-md-4 h{
+		text-align: center;
+	 }
+	 hr.divider{
+		margin: 40px;
+	 }
+	 .feature-heading{
+	    font-size: 30px;
+		color: #2a6496;
+        }
+	 .row div{
+		border: 1px solid #ccc;
+		padding: 10px;
+	 }
+	 .tab-heading{
+		font-size: 25px;
+		color: #4169E1;
+	 }
+</style>
+
+</head>
+
+<body>
+<!--导航栏-->
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">印度洋海运大数据平台</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">海运数据管理<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">轨迹热力图</a></li>
+        <li><a href="#">海运态势分析与预测</a></li>
+		<li><a href="#">API</a></li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="查找...">
+        	 <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">登录</a></li>
+        <li><a href="#">注册</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!--轮播内容-->
+<div id="GIS-carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#GIS-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#GIS-carousel" data-slide-to="1"></li>
+    <li data-target="#GIS-carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/封面1（1920x700）.jpg" alt="1 slide">
+      <div class="carousel-caption">
+        <button class="btn btn-default" style="margin-left: 850px; margin-bottom: 75px; font-size:18px;" type="button" href="...">了解更多</button>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/封面2(1920x700).jpg" alt="2 slide">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/轨迹热力图（1920x700）.jpg" alt="3 slide">
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#GIS-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#GIS-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+ <!--三栏布局-->
+<div class="container" id="summary-container">
+	<div class="row">
+		<div class="col-md-4">
+			<h3 class="feature-heading">近期动态</h3>
+			<p>首届“一带一路”科研机构科技创新国际研讨会“生态环境与可持续发展”论坛在京召开。</p>
+			<p>首届“一带一路”科研机构科技创新国际研讨会“生态环境与可持续发展”论坛在京召开。</p>
+			<p>首届“一带一路”科研机构科技创新国际研讨会“生态环境与可持续发展”论坛在京召开。</p>
+		</div>
+		<div class="col-md-4">
+			<h3 class="feature-heading">相关文档</h3>
+			<p>首届“一带一路”科研机构科技创新国际研讨会“生态环境与可持续发展”论坛在京召开。</p>
+			<p>首届“一带一路”科研机构科技创新国际研讨会“生态环境与可持续发展”论坛在京召开。</p>
+			<p>首届“一带一路”科研机构科技创新国际研讨会“生态环境与可持续发展”论坛在京召开。</p>
+		</div>
+		<div class="col-md-4">
+			<h3 class="feature-heading">合作单位</h3>
+			<p>首届“一带一路”科研机构科技创新国际研讨会“生态环境与可持续发展”论坛在京召开。</p>
+			<p>首届“一带一路”科研机构科技创新国际研讨会“生态环境与可持续发展”论坛在京召开。</p>
+			<p>首届“一带一路”科研机构科技创新国际研讨会“生态环境与可持续发展”论坛在京召开。</p>
+		</div>
+	</div>
+	<hr class="divider">
+
+  <!-- 标签 -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#introduction" aria-controls="introduction" role="tab" data-toggle="tab">项目简介</a></li>
+    <li role="presentation"><a href="#example" aria-controls="example" role="tab" data-toggle="tab">功能案例</a></li>
+    <li role="presentation"><a href="#support" aria-controls="support" role="tab" data-toggle="tab">技术支持</a></li>
+    <li role="presentation"><a href="#about" aria-controls="about" role="tab" data-toggle="tab">关于我们</a></li>
+  </ul>
+
+  <!-- 标签内容 -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="introduction">
+	<h3 class="tab-heading">1.数据管理</h3>
+	<p>管理船舶AIS轨迹数据、气象数据、海底地形数据、港口设施数据、遥感影像数据等，并进行分层叠加可视化展示。</p>
+	<h3 class="tab-heading">2.专题可视化</h3>
+	<p>分地理范围、分国家、分港口展示海洋运输信息，包括进出港船舶类型、数量和货物运输情况。展示船舶运输轨迹热力图，包括单条船舶轨迹、分类型船舶轨迹热力图、分国别船舶轨迹热力图、港口间船舶轨迹热力图。</p>
+	<h3 class="tab-heading">3.海运态势分析与预测</h3>
+	<p>呈现港口与港口之间、国家与国家之间的海运态势变化；可以在指定时间区间下，针对所选国家或者港口分析相互间的货物贸易变化。针对特殊政治或灾害事件，分析国家间货物贸易变化，并对印度洋海运态势进行实时预测与预警分析。</p>
+	</div>
+    <div role="tabpanel" class="tab-pane" id="example">
+	<p>待添加</p>
+	</div>
+    <div role="tabpanel" class="tab-pane" id="support">
+	<p>待添加</p>
+	</div>
+    <div role="tabpanel" class="tab-pane" id="about">
+	<h3 class="tab-heading">通讯地址</h3>
+	<p>山东省青岛市经济技术开发区前湾港路579号</br>山东科技大学</p>
+	<h3 class="tab-heading">联系方式</h3>
+	<p>Tel：0532-1234567</br>Email：123456789@sdust.edu.cn</p>
+	</div>
+  </div>
+
+  <hr class="divider">
+	<!--回到顶部-->
+	<footer>
+        <p class="pull-right"><a href="#top">回到顶部</a></p>
+		<p>© 2017印度洋海运大数据平台</p>
+    </footer>
+	
+</div>
+
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
